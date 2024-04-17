@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+h2, p{
+  font-family: Arial, Helvetica, sans-serif;
+}
+#divCima {
+  margin: 100px;
+  max-width: 1400px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+/* Header */
+header {
+  display: flex;
+  align-items: center;
+  background-color: #204030;
+  position: sticky;
+  margin-top: 0;
+  border: 2px solid rgb(39, 61, 50);
+}
+
+#logoTipo {
+  width: 120px;
+  margin: 0 10px;
+}
+/* Nav */
+nav {
+  display: inline-block;
+  position: absolute;
+  right: 100px;
+  align-items: center;
+  
+}
+.divLinksCAbecalho a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.iconesNav button{
+  width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+    background-color: #00BF63;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 0 3px;
+    transition: 0.4s;
+}
+button:hover{
+  box-shadow: 0px 0px 8px white;
+  transform: scale(1.10);
+}
+
+.divLinksCAbecalho a:hover {
+  text-decoration: overline;
+  color: #00BF63;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+/* 3 pontos */
+#div3pontos {
+  background-color: black;
+  width: 100px;
+  height: 123px;
+  margin-left: 30px;
+  position: absolute;
+  right: -2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+}
+
+.pontos3{
+  text-align: center;
+  width: 20px;
+  height: 1px;
+  background-color: white;
+}
+
+/* Body */
+body{
+  background-color: #204030;
+}
+/* div email */
+#divEmail{
+  width: 200px;
+  height: 30px;
+  border: 2px solid rgba(143, 124, 124, 0.181);
+  margin-top: 10px;
+  border-radius: 30px;
+}
+#divEmail a{
+  text-decoration: none;
+}
+/* div lateral - academica */
+#divMeio{
+  background-color: #00BF63;
+  width: 40%;
+  height: 600px;
+  border-radius: 20px 0 0 20px ;
+  position: absolute;
+  right: 0px;
+  top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#divMeio h2{
+  position: absolute;
+  top:  30px;
+}
+#divMeio img{
+  border-radius: 50%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  width: 350px;
+  height: 350px;
+  border: 2px solid rgba(0, 0, 0, 0.275);
+  position: absolute;
+  right: 440px;
+}
+#divListaAcademica{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 100px;
+  
+}
+#divListaAcademica li{
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* div cima */
+.textoMedio{
+  color: #199559;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.textoGrande{
+  color: #199559;
+  font-size: 100px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#pCima{
+  color: #199559;
+  width: 450px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: justify;
+  margin-top: 10px;
+}
+#divTecnologiaImagem{
+  display: flex;
+  justify-content: left;
+  gap: 30px;
+  margin-top: 20px;
+}
+#divTecnologiaImagem img{
+  width: 50px;
+  height: 50px; 
+}
+
+#divTecnologia{
+  margin-top: 70px;
+}
+/* div experiências */
+#divExperiencias{
+  margin-top: 200px;
+}
+#divExperiencias h2{
+  color: #199559;
+}
+#divExperienciasFotos img{
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+  margin-top: 70px;
+  border-radius: 30px;
+  
+}
+#divExperienciasFotos{
+  display: flex;
+  gap: 200px;
+}
+.divExperienciasCaixa p{
+  margin-top: 20px;
+  width: 300px;
+  text-align: justify;
+  color: #199559;
+  font-size: 700;
+
+}
+
+/* footer */
+footer{
+  width: 100%;
+  height: 300px;
+  background-color: #264a38;
+  border-top: 1px solid black;
+  
+  margin-top: 100px;
+}
+#divFooter{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 500px;
+}
+
+#listaFooter{
+  text-align: center;
+}
